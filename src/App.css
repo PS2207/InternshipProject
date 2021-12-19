@@ -1,10 +1,11 @@
-
-.App {
+App {
   text-align: center;
   width: 98%;
   height:98%;
   margin: 1%;
 }
+
+
 
 .navbar {
   border-bottom: 1px solid #a5a1a2;
@@ -59,7 +60,7 @@ h1 {
 }
 
 .homeFormStyle {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display:inline-block;
   margin: 1%;
   width: 30%;
@@ -69,6 +70,24 @@ h1 {
 .footerStyle {
   border: 1px solid black;
   background-color: #61dafb;
+
+}
+
+
+.resetButtonStyle{
+  margin:'5px';
+  padding:'3px';
+  font-size:'25px';
+  background-color:'red';
+ border-radius:'8px';
+}
+
+.submitButtonStyle{
+  margin:'5px';
+  padding:'3px';
+  font-size:'25px';
+  background-color:'green';
+ border-radius:'8px';
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
