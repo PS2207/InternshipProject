@@ -72,6 +72,8 @@ h1 {
   background-color: #61dafb;
 
 }
+
+
 .resetButtonStyle{
   margin:'5px';
   padding:'3px';
@@ -85,6 +87,14 @@ h1 {
   padding:'3px';
   font-size:'25px';
   background-color:'green';
+ border-radius:'8px';
+}
+
+.updateButtonStyle{
+  margin:'5px';
+  padding:'3px';
+  font-size:'25px';
+  background-color:'blue';
  border-radius:'8px';
 }
 @media (prefers-reduced-motion: no-preference) {
