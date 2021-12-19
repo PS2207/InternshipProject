@@ -1,4 +1,4 @@
-App {
+.App {
   text-align: center;
   width: 98%;
   height:98%;
@@ -72,8 +72,6 @@ h1 {
   background-color: #61dafb;
 
 }
-
-
 .resetButtonStyle{
   margin:'5px';
   padding:'3px';
