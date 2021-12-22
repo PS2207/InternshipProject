@@ -12,6 +12,18 @@ function App() {
           <Home/>
      <Footer/>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
   );
 }
 
