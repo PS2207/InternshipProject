@@ -1,3 +1,9 @@
+/* 
+*{
+  box-sizing:border-box;
+  height: 0px;
+  width: 0px;
+} */
 
 .App {
   text-align: center;
@@ -98,17 +104,37 @@ h1 {
   background-color:#4ec758;
  border-radius:8px;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* form css */
+/* .homeFormStyle{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+} */
+.homeFormStyle label{ 
+  text-align: left;
+  display: block;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeFormStyle h2{ 
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
 }
 
+.homeFormStyle input, .createQuery textarea, .createQuery select{ 
+  width: 100%;
+  padding: 6px 10px;
+  margin:10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.homeFormStyle button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding:8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
