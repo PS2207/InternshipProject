@@ -42,7 +42,7 @@ function HomeTable(props) {
   useEffect(()=>{
     //console.log("Use Effect called");
 
-    fetch('http://localhost:2000/students')
+    fetch('http://localhost:4000/students')
     .then((res)=>{
       //console.log("response:"+res);
       return res.json()})
