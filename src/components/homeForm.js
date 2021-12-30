@@ -53,7 +53,7 @@ function HomeForm(props) {
   const editHandler = () => {
     console.log("Going to save student: " + student);
 
-    fetch('http://localhost:2000/students/'+student.enrollment, {
+    fetch('http://localhost:4000/students/'+student.enrollment, {
       method:'PUT',
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify(student)
@@ -74,7 +74,7 @@ function HomeForm(props) {
   const saveHandler = () => {
     console.log("Going to save student: " + student);
 
-    fetch('http://localhost:2000/students', {
+    fetch('http://localhost:4000/students', {
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify(student)
